@@ -1,0 +1,4 @@
+var namespace_fifty_one_1_1_geo_location_1_1_nominatim_1_1_tests =
+[
+    [ "NominatimEngineTests", "class_fifty_one_1_1_geo_location_1_1_nominatim_1_1_tests_1_1_nominatim_engine_tests.html", "class_fifty_one_1_1_geo_location_1_1_nominatim_1_1_tests_1_1_nominatim_engine_tests" ]
+];
