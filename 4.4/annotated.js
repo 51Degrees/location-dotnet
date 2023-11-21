@@ -1,4 +1,4 @@
-var annotated_dup =
+var annotated =
 [
     [ "AspNetCore", "namespace_asp_net_core.html", "namespace_asp_net_core" ],
     [ "CombiningServices", "namespace_combining_services.html", "namespace_combining_services" ],

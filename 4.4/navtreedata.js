@@ -26,17 +26,7 @@ var NAVTREE =
     [ "General Docs", "../../documentation/4.4/index.html", null ],
     [ "The MIT License (MIT)", "md__home_runner_work_location-dotnet_location-dotnet_common_location-dotnet__examples__cloud__as8e528e29f85eaef62e0ffc6134edaf73.html", null ],
     [ "51Degrees Geo-Location Engines", "md__home_runner_work_location-dotnet_location-dotnet_common_location-dotnet__r_e_a_d_m_e.html", null ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", null ]
-      ] ]
-    ] ],
+    [ "Classes", "annotated.html", "annotated" ],
     [ "Examples", "examples.html", "examples" ]
 ];
 
