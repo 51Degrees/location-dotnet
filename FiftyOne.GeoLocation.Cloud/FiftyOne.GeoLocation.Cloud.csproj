@@ -14,20 +14,18 @@
 	  <!-- NuGet package properties -->
 	  <PackageId>FiftyOne.Geolocation.Cloud</PackageId>
 	  <Title>Cloud-based location services for the 51Degrees Pipeline API</Title>
-	  <PackageDescription>
-		  The 51Degrees Pipeline API provides a fast, modern architecture for consuming real-time digital data services. 
-		  The package contains components that are used to integrate with location hosted on the 51Degrees cloud service.
-	  </PackageDescription>
-	  <Authors>51D_Steve;Ben51Degrees;Joseph51Degrees</Authors>
+	  <Description>51Degrees Geolocation performs reverse geocoding (using longitude and latitude information) to populate postal addresses. This package performs reverse geocoding using the 51Degrees cloud service.</Description>
+	  <Authors>51Degrees Engineering</Authors>
 	  <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
     <PackageIconUrl>https://51degrees.com/portals/0/Logos/Square%20Logo.png?width=64</PackageIconUrl>
 	  <Copyright>51Degrees Mobile Experts Limited</Copyright>
-	  <PackageTags>51degrees,pipeline,data service,location,geolocation,cloud</PackageTags>
+	  <PackageTags>51degrees;location;geolocation;longitude;latitude,cloud</PackageTags>
 	  <RepositoryUrl>https://github.com/51Degrees/location-dotnet</RepositoryUrl>
 	  <PackageProjectUrl>https://51degrees.com</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageIcon>51d-logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
@@ -45,6 +43,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\Images\51d-logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
