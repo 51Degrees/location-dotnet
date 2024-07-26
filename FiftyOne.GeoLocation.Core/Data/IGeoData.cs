@@ -200,6 +200,16 @@ namespace FiftyOne.GeoLocation.Core.Data
         AspectPropertyValue<string> CountryCode { get; set; }
 
         /// <summary>
+        /// The 3 character country code for the country that this location is in.
+        /// </summary>
+        AspectPropertyValue<string> CountryCode3 { get; set; }
+
+        /// <summary>
+        /// The offset from UTC in minutes for the location at the date processed.
+        /// </summary>
+        AspectPropertyValue<int> TimeZoneOffset { get; set; }
+
+        /// <summary>
         /// The complete address for this location.
         /// </summary>
         AspectPropertyValue<string> Address { get; set; }
