@@ -148,6 +148,18 @@ namespace FiftyOne.GeoLocation.Core.Data
             set { base["countrycode"] = value; }
         }
         /// <inheritdoc/>
+        public AspectPropertyValue<string> CountryCode3
+        {
+            get { return GetAs<AspectPropertyValue<string>>("countrycode3"); }
+            set { base["countrycode3"] = value; }
+        }
+        /// <inheritdoc/>
+        public AspectPropertyValue<int> TimeZoneOffset
+        {
+            get { return GetAs<AspectPropertyValue<int>>("timezoneoffset"); }
+            set { base["timezoneoffset"] = value; }
+        }
+        /// <inheritdoc/>
         public AspectPropertyValue<string> Address
         {
             get { return GetAs<AspectPropertyValue<string>>("address"); }
