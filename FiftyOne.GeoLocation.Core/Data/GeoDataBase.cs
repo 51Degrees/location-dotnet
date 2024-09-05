@@ -166,14 +166,10 @@ namespace FiftyOne.GeoLocation.Core.Data
             set { base["address"] = value; }
         }
 
-        #endregion
-
-        #region Protected Fields
-
         /// <summary>
         /// Dictionary of property types.
         /// </summary>
-        protected static readonly IReadOnlyDictionary<string, Type> PropertyTypes =
+        public static readonly IReadOnlyDictionary<string, Type> PropertyTypes =
             new Dictionary<string, Type>()
             {
                 { "JavaScript", typeof(IAspectPropertyValue<JavaScript>) },
@@ -188,7 +184,9 @@ namespace FiftyOne.GeoLocation.Core.Data
                 { "ZipCode", typeof(IAspectPropertyValue<string>) },
                 { "Country", typeof(IAspectPropertyValue<string>) },
                 { "CountryCode", typeof(IAspectPropertyValue<string>) },
-                { "Address", typeof(IAspectPropertyValue<string>) }
+                { "CountryCode3", typeof(IAspectPropertyValue<string>) },
+                { "TimeZoneOffset", typeof(IAspectPropertyValue<string>) },
+                { "Address", typeof(IAspectPropertyValue<string>) },
             };
 
         #endregion
