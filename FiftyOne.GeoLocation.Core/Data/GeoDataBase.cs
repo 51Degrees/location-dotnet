@@ -185,7 +185,7 @@ namespace FiftyOne.GeoLocation.Core.Data
                 { "Country", typeof(IAspectPropertyValue<string>) },
                 { "CountryCode", typeof(IAspectPropertyValue<string>) },
                 { "CountryCode3", typeof(IAspectPropertyValue<string>) },
-                { "TimeZoneOffset", typeof(IAspectPropertyValue<string>) },
+                { "TimeZoneOffset", typeof(IAspectPropertyValue<int>) },
                 { "Address", typeof(IAspectPropertyValue<string>) },
             };
 
