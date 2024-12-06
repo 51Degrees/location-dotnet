@@ -34,8 +34,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FiftyOne.Pipeline.CloudRequestEngine" Version="4.4.115" />
-    <PackageReference Include="FiftyOne.Pipeline.Engines.FiftyOne" Version="4.4.116" />
+    <PackageReference Include="FiftyOne.Pipeline.CloudRequestEngine" Version="4.4.117" />
+    <PackageReference Include="FiftyOne.Pipeline.Engines.FiftyOne" Version="4.4.117" />
   </ItemGroup>
 
   <ItemGroup>
