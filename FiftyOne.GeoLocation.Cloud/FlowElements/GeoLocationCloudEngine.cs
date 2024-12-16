@@ -155,7 +155,7 @@ namespace FiftyOne.GeoLocation.Cloud
                 });
 
             var location = CreateAPVDictionary(propertyValues, Properties.ToList());
-            aspectData.PopulateFromDictionary(location);
+            aspectData.PopulateFrom(location);
         }
 
         /// <summary>
