@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FiftyOne.DeviceDetection" Version="4.4.214" />
+    <PackageReference Include="FiftyOne.DeviceDetection" Version="4.4.215" />
   </ItemGroup>
 </Project>
