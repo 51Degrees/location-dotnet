@@ -10,8 +10,4 @@
   <ItemGroup>
     <ProjectReference Include="..\..\FiftyOne.GeoLocation\FiftyOne.GeoLocation.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="FiftyOne.DeviceDetection" Version="4.4.221" />
-  </ItemGroup>
 </Project>
