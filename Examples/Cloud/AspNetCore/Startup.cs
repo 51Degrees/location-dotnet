@@ -39,7 +39,7 @@ using Microsoft.Extensions.Hosting;
 /// @example AspNetCore/Startup.cs
 /// @include{doc} example-web-integration-location.txt
 /// 
-/// The source code for this example is available in full on [GitHub](https://github.com/51Degrees/location-dotnet/blob/master/Examples/Cloud/AspNetCore3.1). 
+/// The source code for this example is available in full on [GitHub](https://github.com/51Degrees/location-dotnet/tree/main/Examples/Cloud/AspNetCore). 
 /// 
 /// @include{doc} example-require-resourcekey.txt
 /// 
