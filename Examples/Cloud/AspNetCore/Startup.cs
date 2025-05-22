@@ -44,7 +44,6 @@ using Microsoft.Extensions.Hosting;
 /// @include{doc} example-require-resourcekey.txt
 /// 
 /// Required NuGet Dependencies:
-/// - [Microsoft.AspNetCore.App](https://www.nuget.org/packages/Microsoft.AspNetCore.App/)
 /// - [FiftyOne.GeoLocation](https://www.nuget.org/packages/FiftyOne.GeoLocation/)
 /// - [FiftyOne.Pipeline.Web](https://www.nuget.org/packages/FiftyOne.Pipeline.Web/)
 /// 
