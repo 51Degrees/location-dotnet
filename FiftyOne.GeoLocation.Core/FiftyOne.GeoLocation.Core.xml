@@ -135,6 +135,12 @@
         <member name="P:FiftyOne.GeoLocation.Core.Data.GeoData.CountryCode">
             <inheritdoc/>
         </member>
+        <member name="P:FiftyOne.GeoLocation.Core.Data.GeoData.CountryCode3">
+            <inheritdoc/>
+        </member>
+        <member name="P:FiftyOne.GeoLocation.Core.Data.GeoData.TimeZoneOffset">
+            <inheritdoc/>
+        </member>
         <member name="P:FiftyOne.GeoLocation.Core.Data.GeoData.Address">
             <inheritdoc/>
         </member>
@@ -346,6 +352,16 @@
             Different location providers may provide differently formatted
             country codes.
             </remarks>
+        </member>
+        <member name="P:FiftyOne.GeoLocation.Core.Data.IGeoData.CountryCode3">
+            <summary>
+            The 3 character country code for the country that this location is in.
+            </summary>
+        </member>
+        <member name="P:FiftyOne.GeoLocation.Core.Data.IGeoData.TimeZoneOffset">
+            <summary>
+            The offset from UTC in minutes for the location at the date processed.
+            </summary>
         </member>
         <member name="P:FiftyOne.GeoLocation.Core.Data.IGeoData.Address">
             <summary>
