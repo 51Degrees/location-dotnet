@@ -43,7 +43,7 @@ using System.Threading.Tasks;
 /// You can create a resource key using the 51Degrees [Configurator](https://configure.51degrees.com).
 /// 
 /// Required NuGet Dependencies:
-/// - FiftyOne.GeoLocation
+/// - [FiftyOne.GeoLocation](https://www.nuget.org/packages/FiftyOne.GeoLocation/)
 /// 
 /// The example shows how to:
 /// 
