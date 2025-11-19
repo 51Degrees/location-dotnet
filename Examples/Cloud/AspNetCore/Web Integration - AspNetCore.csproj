@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.4.278" />
-    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.4.145" />
+    <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.4.279" />
+    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.4.146" />
   </ItemGroup>
 
   <ItemGroup>
