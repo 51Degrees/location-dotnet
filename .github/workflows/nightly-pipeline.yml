@@ -20,16 +20,6 @@ jobs:
     secrets:
       token: ${{ secrets.ACCESS_TOKEN }}
 
-  DocumentationUpdate:
-    name: Nightly Documentation Update
-    uses: 51Degrees/common-ci/.github/workflows/nightly-documentation-update.yml@main
-    with:
-      repo-name: ${{ github.event.repository.name }}
-      org-name: ${{ github.event.repository.owner.login }}
-      dryrun: ${{ inputs.dryrun || false }}
-    secrets:
-      token: ${{ secrets.ACCESS_TOKEN }}
-
   PullRequests:
     if: ${{ !cancelled() }}
     needs: [PackageUpdate, DocumentationUpdate]
