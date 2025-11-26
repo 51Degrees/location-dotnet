@@ -34,10 +34,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FiftyOne.Pipeline.CloudRequestEngine" Version="4.5.4" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FiftyOne.GeoLocation.Core\FiftyOne.GeoLocation.Core.csproj" />
   </ItemGroup>
 
@@ -50,6 +46,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FiftyOne.Pipeline.CloudRequestEngine" Version="4.5.5" />
   </ItemGroup> 
 
 </Project>
