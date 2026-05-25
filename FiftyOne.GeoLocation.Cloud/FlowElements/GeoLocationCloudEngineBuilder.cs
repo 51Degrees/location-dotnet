@@ -27,6 +27,7 @@ using FiftyOne.GeoLocation.Cloud.Data;
 using FiftyOne.GeoLocation.Core;
 using FiftyOne.GeoLocation.Core.Data;
 using FiftyOne.Pipeline.CloudRequestEngine.FlowElements;
+using FiftyOne.Pipeline.CloudRequestEngine.Services;
 using FiftyOne.Pipeline.Core.Data;
 using FiftyOne.Pipeline.Core.Exceptions;
 using FiftyOne.Pipeline.Core.FlowElements;
@@ -150,7 +151,7 @@ namespace FiftyOne.GeoLocation.Cloud.FlowElements
                 _loggerFactory.CreateLogger<GeoData>(),
                 pipeline,
                 (IAspectEngine)engine,
-                MissingPropertyService.Instance);
+                MissingPropertyServiceCloud.Instance);
         }
     }
 }
