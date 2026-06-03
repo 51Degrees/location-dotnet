@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.5.105" />
+    <ProjectReference Include="..\..\..\FiftyOne.GeoLocation.Cloud\FiftyOne.GeoLocation.Cloud.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\FiftyOne.GeoLocation.Cloud\FiftyOne.GeoLocation.Cloud.csproj" />
+    <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.5.106" />
   </ItemGroup>
 
 
