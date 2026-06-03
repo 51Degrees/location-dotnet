@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.5.106" />
+    <!-- This example uses FiftyOne.Pipeline.Web types (IFlowDataProvider); reference the
+         package directly rather than relying on a transitive dependency. -->
+    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.5.49" />
   </ItemGroup>
 
 
