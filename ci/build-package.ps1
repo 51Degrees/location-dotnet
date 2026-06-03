@@ -11,6 +11,11 @@ param(
 
 )
 
+# Write the strong-name key so CI (PublicSign=false) can full-sign the assemblies.
+# The test/PR build path does this in setup-environment.ps1; the publish path runs
+# this script instead, so it must write the key too (see CS7027 on Nightly Publish).
+[IO.File]::WriteAllBytes("$PSScriptRoot/../51Degrees.snk", [Convert]::FromBase64String($Keys.StrongNameKeyBase64))
+
 
 ./dotnet/build-package-nuget.ps1 -RepoName $RepoName -ProjectDir $ProjectDir -Name $Name -Configuration $Configuration -Version $Version -SolutionName "FiftyOne.GeoLocation.sln" -SearchPattern "^(?!.*Test)Project\(.*csproj" `
     -CodeSigningKeyVaultUrl $Keys.CodeSigningKeyVaultUrl `
