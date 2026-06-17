@@ -13,8 +13,8 @@
   <ItemGroup>
     <!-- This example uses FiftyOne.Pipeline.Web types (IFlowDataProvider); reference the
          package directly rather than relying on a transitive dependency. -->
-    <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.5.108" />
-    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.5.55" />
+    <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.5.109" />
+    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.5.56" />
   </ItemGroup>
 
 
