@@ -14,7 +14,7 @@
     <!-- This example uses FiftyOne.Pipeline.Web types (IFlowDataProvider); reference the
          package directly rather than relying on a transitive dependency. -->
     <PackageReference Include="FiftyOne.DeviceDetection.Cloud" Version="4.5.127" />
-    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.5.71" />
+    <PackageReference Include="FiftyOne.Pipeline.Web" Version="4.5.72" />
   </ItemGroup>
 
 
