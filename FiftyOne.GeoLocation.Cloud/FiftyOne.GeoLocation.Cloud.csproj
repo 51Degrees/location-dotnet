@@ -49,7 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FiftyOne.Pipeline.CloudRequestEngine" Version="4.5.95" />
+    <PackageReference Include="FiftyOne.Pipeline.CloudRequestEngine" Version="4.5.97" />
   </ItemGroup> 
 
 </Project>
