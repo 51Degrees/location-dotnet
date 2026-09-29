@@ -31,7 +31,10 @@ jobs:
       dryrun: ${{ inputs.dryrun || false }}
     secrets:
       token: ${{ secrets.ACCESS_TOKEN }}
-      TestResourceKey: ${{ secrets.SUPER_RESOURCE_KEY}}
+      # The key that used to be read here, SUPER_RESOURCE_KEY, is refused by
+      # the cloud because the licence behind it is no longer active, so
+      # every cloud test failed. See 51Degrees/internal-common-ci#12.
+      TestResourceKey: ${{ secrets._51DEGREES_RESOURCE_KEY_BESPOKE }}
       StrongNameKeyBase64: ${{ secrets.STRONG_NAME_KEY_BASE64 }}
 
   Publish:
@@ -53,4 +56,7 @@ jobs:
       CodeSigningKeyVaultClientSecret: ${{ secrets.CODE_SIGNING_KEY_VAULT_CLIENT_SECRET }}
       CodeSigningKeyVaultCertificateName: ${{ secrets.CODE_SIGNING_KEY_VAULT_CERTIFICATE_NAME }}
       StrongNameKeyBase64: ${{ secrets.STRONG_NAME_KEY_BASE64 }}
-      TestResourceKey: ${{ secrets.SUPER_RESOURCE_KEY}}
+      # The key that used to be read here, SUPER_RESOURCE_KEY, is refused by
+      # the cloud because the licence behind it is no longer active, so
+      # every cloud test failed. See 51Degrees/internal-common-ci#12.
+      TestResourceKey: ${{ secrets._51DEGREES_RESOURCE_KEY_BESPOKE }}
